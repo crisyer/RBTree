@@ -5,3 +5,5 @@ CMakeCache.txt
 Makefile
 .vscode
 Red_Black_Tree
+rb.c
+.gitignore
