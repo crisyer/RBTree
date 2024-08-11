@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/home/y/prj/RBTree/build",
+  "command": "/usr/bin/c++    -g   -g -std=gnu++11 -o CMakeFiles/Red_Black_Tree.dir/main.cpp.o -c /home/y/prj/RBTree/main.cpp",
+  "file": "/home/y/prj/RBTree/main.cpp"
+},
+
+{
+  "directory": "/home/y/prj/RBTree/build",
+  "command": "/usr/bin/c++    -g   -g -std=gnu++11 -o CMakeFiles/Red_Black_Tree.dir/RBTree.cpp.o -c /home/y/prj/RBTree/RBTree.cpp",
+  "file": "/home/y/prj/RBTree/RBTree.cpp"
+}
+]

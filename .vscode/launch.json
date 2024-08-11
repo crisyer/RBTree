@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "C/C++: g++ build and debug active file",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "/home/y/prj/RBTree/Red_Black_Tree",    // 指定运行的可执行文件，和tasks.json中保持一致
+        "args": [],   // 可执行文件如果需要跟参数在其中配置
+        "stopAtEntry": false,
+        "cwd": "/home/y/prj/RBTree/",   // 工作目录
+        "environment": [{ "name": "LD_LIBRARY_PATH", "value": "$LD_LIBRARY_PATH:/home/y/prj/RBTree" }],   // 配置环境变量
+        "externalConsole": false,
+        "MIMode": "gdb",        // 指定调试参数
+        "miDebuggerPath": "/usr/bin/gdb",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "preLaunchTask": "C/C++: g++ build active file"
+      }
+    ]
+  }

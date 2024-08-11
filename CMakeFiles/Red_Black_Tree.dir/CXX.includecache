@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/y/prj/RBTree/RBTree.h
+bits/stdc++.h
+-
+
+/home/y/prj/RBTree/main.cpp
+bits/stdc++.h
+-
+RBTree.h
+/home/y/prj/RBTree/RBTree.h
+
